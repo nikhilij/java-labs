@@ -4,30 +4,34 @@
 
 import java.util.Scanner;
 
-public class Name{
+public class Studentinfo{
     static Scanner scan=new Scanner(System.in);
     int roll_no;
     String name;
     String branch;
+    String section;
 
      void input(){
         System.out.print("Enter your name : ");
         name=scan.nextLine();
-        System.out.println("Enter you roll no: ");
+        System.out.println("Enter your roll no: ");
         roll_no=scan.nextInt();
         scan.nextLine();
-        System.out.println("Enter you branch : ");
+        System.out.println("Enter your branch : ");
         branch=scan.nextLine();
+        System.out.println("Enter your section: ");
+        section=scan.nextLine();
     }
 
      void output(){
         System.out.println("Name:" +name );
         System.out.println("Roll No: "+roll_no);
         System.out.println("Branch: "+branch);
+        System.out.println("Section: "+section);
     }
 
     public static void main(String[] args) {
-        Name info =new Name();
+        Studentinfo info =new Studentinfo();
         info.input();
         info.output();
     }
