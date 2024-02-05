@@ -24,6 +24,7 @@ public class Palindrome {
         Scanner scan=new Scanner(System.in);
         int number=scan.nextInt();
         check(number);
+        scan.close();
 
     }
 }

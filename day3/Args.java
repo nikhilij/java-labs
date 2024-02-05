@@ -1,3 +1,5 @@
+//Author Name: Nikhil Soni
+
 // Find the largest among 3 user entered nos. at the command prompt using Java
 // Input: Enter three number .
 // Output: Display the Largest Number

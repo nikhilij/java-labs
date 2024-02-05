@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DiagonalSum {
+public class Diagonalsum {
     public static void main(String[] args) {
         // Create a Scanner object to read user input
         Scanner scanner = new Scanner(System.in);
