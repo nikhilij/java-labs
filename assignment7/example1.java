@@ -1,3 +1,5 @@
+// this is the program to check whether a string contains the other string or not
+
 import java.util.Scanner;
 
 public class example1 {
