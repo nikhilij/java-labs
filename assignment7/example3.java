@@ -1,6 +1,6 @@
 class example3 {
     public static void main(String[] args) {
-        String inputString = "programming";
+        String inputString = "Massachusetts";
         char example3 = findexample3(inputString);
         System.out.println("First non-repeated character: " + example3);
     }
@@ -15,6 +15,6 @@ class example3 {
                 return c;
             }
         }
-        return '\0'; // No non-repeated character found
+        return '\0'; 
     }
 }
